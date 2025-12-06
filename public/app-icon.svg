@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradiente de fundo -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00C36F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004E8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo com gradiente -->
+  <rect width="1024" height="1024" rx="180" fill="url(#bgGradient)"/>
+  
+  <!-- Círculo interno decorativo -->
+  <circle cx="512" cy="512" r="380" fill="white" opacity="0.1"/>
+  
+  <!-- Ícone de chama estilizada (branco) -->
+  <path d="M512 256C512 256 384 384 384 512C384 582.692 441.308 640 512 640C582.692 640 640 582.692 640 512C640 384 512 256 512 256Z" fill="white"/>
+  <path d="M512 384C512 384 448 448 448 512C448 547.346 476.654 576 512 576C547.346 576 576 547.346 576 512C576 448 512 384 512 384Z" fill="white" opacity="0.7"/>
+  
+  <!-- Detalhe adicional -->
+  <circle cx="512" cy="512" r="32" fill="white" opacity="0.9"/>
+</svg>
