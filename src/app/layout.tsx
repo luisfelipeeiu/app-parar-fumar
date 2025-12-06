@@ -8,7 +8,8 @@ export const viewport = {
   themeColor: "#00c36F",
 };
 
-export default function RootLayout({ children }) {
+export default function
+  RootLayout({ children }) {
   return (
     <html lang="pt">
       <body>{children}</body>
