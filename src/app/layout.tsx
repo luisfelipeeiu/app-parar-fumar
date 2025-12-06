@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "QuitSmokePro - Pare de Fumar Hoje",
   description: "Aplicativo profissional para ajudar você a parar de fumar com estatísticas, planos diários e suporte premium",
-  icons: {
-    icon: [
+export const; viewport{
+  themeColor:#00c36F
       { url: "/icon.svg", type: "image/svg+xml" },
     ],
     apple: [
